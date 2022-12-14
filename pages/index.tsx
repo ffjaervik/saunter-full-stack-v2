@@ -14,6 +14,7 @@ export default function Home() {
       <main>
         <h1>Hello World!</h1>
         <p>This will the great</p>
+        <p>This is for the features</p>
       </main>
 
       <footer >
