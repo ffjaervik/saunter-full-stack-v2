@@ -13,6 +13,7 @@ export default function Home() {
 
       <main>
         <h1>Hello World!</h1>
+        <p>This will the great</p>
       </main>
 
       <footer >
