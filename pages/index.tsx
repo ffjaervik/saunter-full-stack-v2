@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import Profile from '../components/Profile'
 
 import styles from '../styles/Home.module.css'
 
@@ -16,8 +18,9 @@ export default function Home() {
         <p>This will the great</p>
         <p>This is for the features</p>
         <h1>Auth0 test</h1>
-        <a href="/api/auth/login" className='border-2 border-black'>Login</a>
-        <a href="/api/auth/logout" className='border-2 border-black'>Logout</a>
+        <Link href="/api/auth/login" className='border-2 border-black'>Login</Link>
+        <Link href="/api/auth/logout" className='border-2 border-black'>Logout</Link>
+        <Profile />
       </main>
 
       <footer >
